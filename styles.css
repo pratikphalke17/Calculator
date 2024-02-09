@@ -1,4 +1,4 @@
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,4 +59,122 @@ button {
 button.C {
     flex: 0 0 auto; 
     width: 25%; 
+} */
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.calculator > div {
+    margin-bottom: 10px;
+}
+
+#display {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.buttons .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+}
+
+.number {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+}
+
+button:hover {
+    background-color: #bbb;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.calculator > div {
+    margin-bottom: 10px;
+}
+
+#display {
+    background-color: #f0f0f0;
+    padding: 10px 14px;
+    font-size: 24px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.buttons .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.operator {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+}
+
+.number {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+}
+
+button:hover {
+    background-color: #bbb;
 }

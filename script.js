@@ -15,7 +15,7 @@ function calculate() {
   try {
     let result = eval(expression);
     display.textContent = result;
-    expression = "";
+    expression = "0";
   } catch (error) {
     display.textContent = "Error";
   }
