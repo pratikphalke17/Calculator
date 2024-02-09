@@ -1,5 +1,4 @@
-Calculator Project
-          This is a simple calculator web application built using HTML, CSS, and JavaScript.
+This is a simple calculator web application built using HTML, CSS, and JavaScript.
 Features:
   Arithmetic operations: Addition, Subtraction, Multiplication, Division
   Clear button to reset the display
